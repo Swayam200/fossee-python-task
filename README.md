@@ -53,16 +53,18 @@ How it encourages helpful, student-friendly feedback: The entire prompt is desig
 ---
 
 ## Reasoning Questions
-What tone and style should the AI use when responding?
-The AI should be like a patient friend or a cool teaching assistant. The tone should be consistently encouraging, friendly, and curious. The style is Socratic—it's all about asking leading questions rather than giving direct statements. It should feel like a conversation where the AI is helping the student connect the dots on their own.
+What tone and style should the AI use when responding?  
+- The AI should be like a patient friend or a cool teaching assistant. The tone should be consistently encouraging, friendly, and curious. The style is Socratic—it's all about asking leading questions rather than giving direct statements. It should feel like a conversation where the AI is helping the student connect the dots on their own.
 
-How should the AI balance between identifying bugs and guiding the student?
-The balance should be 90% guiding, 10% identifying. The bug identification should happen entirely "in the AI's head." It should never explicitly state, "You have an off-by-one error." Instead, it uses that internal knowledge to craft the perfect guiding question. Think of it like a GPS: it knows the final destination, but its job is to give you the next turn, not to teleport you there.
+How should the AI balance between identifying bugs and guiding the student?  
+- The balance should be 90% guiding, 10% identifying. The bug identification should happen entirely "in the AI's head." It should never explicitly state, "You have an off-by-one error." Instead, it uses that internal knowledge to craft the perfect guiding question. Think of it like a GPS: it knows the final destination, but its job is to give you the next turn, not to teleport you there.
 
-How would you adapt this prompt for beginner vs. advanced learners?
-That's a great point! You'd simply add a quick note at the top of the prompt to give the AI context.
+How would you adapt this prompt for beginner vs. advanced learners?  
+I would simply add a quick note at the top of the prompt to give the AI context.
 
-For a Beginner: I'd add a line like: "Heads up: This student is a beginner. Please keep the explanations very simple and focus on the fundamentals. Avoid jargon."
+For a Beginner: I'd add a line like: 
+"Heads up: This student is a beginner. Please keep the explanations very simple and focus on the fundamentals. Avoid jargon."
 
-For an Advanced Learner: I'd add: "Heads up: This student is an experienced coder. You can use more technical terms. Feel free to guide them towards not just a working solution, but a more efficient or 'Pythonic' one."
+For an Advanced Learner: I'd add: 
+"Heads up: This student is an experienced coder. You can use more technical terms. Feel free to guide them towards not just a working solution, but a more efficient or 'Pythonic' one."
 
